@@ -1,2 +1,5 @@
 # bitrix-coupon-valid
-Проверка купона на валидность
+bitrix проверка купона на валидность
+\Bitrix\Main\Type\DateTime()
+\Bitrix\Sale\Internals\DiscountCouponTable
+\Bitrix\Catalog\DiscountCouponTable
