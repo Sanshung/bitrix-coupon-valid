@@ -30,9 +30,7 @@ if ($coupon == true) {
         'filter' => [
             'COUPON' => $coupon,
             'ACTIVE' => 'Y',
-            '<=ACTIVE_FROM' => $date,
-            '>=ACTIVE_TO' => $date,
-
+            
         ]
     ]);
     if ($existCoupon = $couponIterator->fetch()) {
